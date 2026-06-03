@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "npm --prefix my-next-project install && npm --prefix my-next-project run build",
+    "dev": "npm --prefix my-next-project run dev",
+    "lint": "npm --prefix my-next-project run lint",
+    "start": "npm --prefix my-next-project run start"
+  }
+}

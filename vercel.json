@@ -1,0 +1,4 @@
+{
+  "installCommand": "npm --prefix my-next-project install",
+  "buildCommand": "npm --prefix my-next-project run build"
+}
