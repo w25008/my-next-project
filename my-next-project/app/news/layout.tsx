@@ -1,15 +1,15 @@
-import Hero from "@/app/components/Hero";
-import Sheet from "../components/Sheet";
+import Hero from '@/app/_components/Hero';
+import Sheet from '@/app/_components/Sheet';
 
 type Props = {
-    children: React.ReactNode;
+  children: React.ReactNode;
 };
 
-export default function NewsLayout({children}:Props){
-    return (
-        <>
-        <Hero title="News"sub="ニュース"/>
-        <Sheet>{children}</Sheet>
-        </>
-    );
+export default function NewsLayout({ children }: Props) {
+  return (
+    <>
+      <Hero title="News" sub="ニュース" />
+      <Sheet>{children}</Sheet>
+    </>
+  );
 }

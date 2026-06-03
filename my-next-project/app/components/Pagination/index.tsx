@@ -7,7 +7,7 @@ type Props={
     current?:number;
     basePath?: string;
 };
-export default function Pagination({totalCount,current=1,basePath="/news,"}:Props){
+export default function Pagination({totalCount,current=1,basePath="/news"}:Props){
     const pages = Array.from(
         {length: Math.ceil(totalCount/ NEWS_LIST_LIMIT)},
         (_,i)=>i+1
